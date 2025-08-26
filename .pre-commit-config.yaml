@@ -35,3 +35,9 @@ repos:
         language: system
         types:
           - python
+
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0   # можно проверить последнюю версию
+    hooks:
+      - id: trailing-whitespace
+      - id: end-of-file-fixer
