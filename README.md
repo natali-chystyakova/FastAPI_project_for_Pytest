@@ -1,4 +1,4 @@
-# FastAPI_project_for_Pytest
+## FastAPI_project_for_Pytest
 
 The project uses PostgreSQL running in a Docker container and interacts with it via SQLAlchemy ORM.
 All migrations are performed using Alembic, and data is validated via Pydantic within a web application on FastAPI.
